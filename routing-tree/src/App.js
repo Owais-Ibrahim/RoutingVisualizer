@@ -243,10 +243,8 @@ export default function App() {
         var newrTree = { ...prevrTree };
         try {
           var names = newNodeName.split(",");
-
           for (var i = 0; i < names.length; i++ ) {
-            var copy = addRoute(newrTree,names[i]);
-            newrTree = copy;
+            newrTree = addRoute(newrTree,names[i]);
           }
           return newrTree;
         } catch (error) {
@@ -299,11 +297,11 @@ export default function App() {
 
   // clearing local storage and tree
   const handleResetStorage = () => {
-    localStorage.removeItem('rTree');
-    setrTree(routingTree);
-    alert("Cleared!")
+    localStorage.removeItem('routingTree');
+    setrTree({ name: '', children: [] });
+    alert('Cleared!');
   };
-
+  
 
   // html visual code
   return (
