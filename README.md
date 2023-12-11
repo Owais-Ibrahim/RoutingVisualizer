@@ -2,6 +2,10 @@
 
 COS316 Final Project, RoutingVisualizer, a web application built using React, designed for educational purposes to help visualize and interactively explore the functionalities of an HTTP Router.
 
+Deployed it Netlify at:
+
+https://6577587ff9d08e2dc5ad8e67--darling-travesseiro-88a49e.netlify.app/
+
 ## Key Functionalities
 
 ### 1. Adding Routes
