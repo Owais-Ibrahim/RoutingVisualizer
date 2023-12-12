@@ -4,13 +4,13 @@ COS316 Final Project, RoutingVisualizer, a web application built using React, de
 
 Deployed it Netlify at:
 
-https://6577587ff9d08e2dc5ad8e67--darling-travesseiro-88a49e.netlify.app/
+https://6577dfbed1f01f04904e712c--darling-travesseiro-88a49e.netlify.app/ 
 
 ## Key Functionalities
 
 ### 1. Adding Routes
 
-- Enter the desired routing path(s) 
+- Enter the desired routing pzath(s) 
 - Separate multiple routes with commas (`,`).
 
 Example: /hi/bye/hello,/hi/student/bye,/today/:id/student
